@@ -1,11 +1,9 @@
 /**
  * Created by Fatmi on 28/10/2016.
  */
-public class segment extends point{
-    public segment(double x,double y){
-        super(x,y);
-    }
-    public segment (double  xor , double  yor, double  px,double py){
+public class segment extends point{ // y a pas un héritage ici un segment relie deux points par définition 
+  
+    public segment ( double  px,double py){
       point or =new point();
        point  p= new point(px,py);
     }
